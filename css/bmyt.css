@@ -1,0 +1,111 @@
+/* => By SlymDev */
+
+@import url(fonts/fontawesome/css/font-awesome.min.css);
+
+body{
+  width: 310px;
+  max-width: 320px;
+  padding: 0 5px 0 5px;
+  margin: 0 5px 5px 5px;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  font-size: 70%;
+}
+
+#header h1{
+  color: #444;
+  text-shadow: 1px 1px 2px;
+  font-size: 20px;
+  margin-bottom: 0;
+  font-family: "Oswald",Helvetica,arial,verdana,sans-serif;
+}
+
+#shadow{
+	height: 5px;
+  margin-bottom: 5px;
+  margin-left: 40px;
+  width: 220px;
+	background: #ddd;
+	border-radius: 100%;
+}
+
+select{
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+a{
+  text-decoration: none;
+  color: #aaa;
+}
+a:hover{
+  padding: 2px 0 2px 0;
+  color: #666;
+}
+p{
+  white-space: nowrap;
+}
+
+#content{
+  box-shadow: 0px 10px 15px 3px #d3d3d3;
+  background:#efefef url(../bg.png);
+  text-align: center;
+  padding: 5px;
+  background-color: #ccc;
+  border-radius: 6px;
+  min-height: 260px;
+}
+
+#content p{
+  margin:0;
+  padding: 0;
+}
+#content button{
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+#content button:hover{
+  cursor: pointer;
+}
+
+#userInput{
+  width: 275px;
+  border-radius: 5px;
+}
+#output{
+  min-width: 275px;
+  max-height: 100px;
+  max-width: 275px;
+  min-height: 100px;
+}
+#NB{
+  font-size: 16px;
+  margin: 0 0 0 25px;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+}
+#about{
+  margin: 5px;
+  float: right;
+}
+
+#about a{
+  margin-left: 2px;
+}
+
+#about i{
+  font-size: 15px;
+}
+
+.space{
+  margin: 10px 0;
+}
+
+.clear{
+  clear: both;
+}
+
+.center{
+  text-align: center;
+}

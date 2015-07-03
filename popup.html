@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="initial-scale=1.0,width=device-width">
+  <title>BmyT | Binary to Text converter</title>
+  <link rel="stylesheet" type="text/css" href="css/kickstart.css" media="screen"/>
+  <link rel="stylesheet" type="text/css" href="css/bmyt.css" media="screen"/>
+  <link rel="stylesheet" type="text/css" href="css/slidingNotice.css" media="screen"/>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/kickstart.js"></script>
+  <script type="text/javascript" src="js/popup.js"></script>
+</head>
+<body>
+	<div class="notice warning" id="slidingNotice"></div>
+  <div id="header" class="center">
+    <h1>Binary to Text converter</h1>
+    <div id="shadow"></div>
+  </div>
+  <div id="content">
+    <span id="options">Options:</span>
+    <select id="action" name="selection">
+      <option value="default">Choose action</option>
+        <option id="BtoT" value="BtoT">Binary to text</option>
+        <option id="TtoB" value="TtoB">Text to Binary</option>
+    </select>
+    <div id="controls">
+      <p><input id="userInput" type="text" autofocus/></p>
+      <p><button id="convert">Convert</button><button id="clear">Clear</button></p>
+      <textarea id="output" disabled></textarea>
+      <div id="NB"></div>
+    </div>
+    <span id="about"><i class="icon-info-sign"></i><a href="about.html" target=_blank><small>About</small></a></span>
+  </div>
+</body>
+</html>
