@@ -9,7 +9,7 @@
 	  
   After unzipping the Extension folder, open your Google Chrome
   browser and find the Extension tab under the option tab then
-  drag and drop BmyT folder into the Extension window.
+  drag and drop BmyT_install.crx into the Extension window.
   NB: You may need to enable developer mode as in the preview.
   
   
