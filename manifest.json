@@ -1,6 +1,6 @@
 {
 	"name": "BmyT",
-	"version": "1.0.2",
+	"version": "1.0.5",
 	"description": "Quick convert text to binary and reverse offline from google Chrome.",
 	"browser_action":{
 		"default_title": "BmyT",

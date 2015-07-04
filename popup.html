@@ -22,13 +22,19 @@
     <select id="action" name="selection">
       <option value="default">Choose action</option>
         <option id="BtoT" value="BtoT">Binary to text</option>
+        <option id="BtoD" value="BtoD">Binary to Decimal</option>
+        <option id="BtoH" value="BtoH">Binary to Hexa</option>
         <option id="TtoB" value="TtoB">Text to Binary</option>
+        <option id="DtoB" value="DtoB">Decimal to Binary</option>
+        <option id="DtoH" value="DtoH">Decimal to Hexa</option>
+        <option id="HtoB" value="HtoB">Hexa to Binary</option>
+        <option id="HtoD" value="HtoD">Hexa to Decimal</option>
     </select>
     <div id="controls">
       <p><input id="userInput" type="text" autofocus/></p>
       <p><button id="convert">Convert</button><button id="clear">Clear</button></p>
       <textarea id="output" disabled></textarea>
-      <div id="NB"></div>
+	  <div id="NB"></div>
     </div>
     <span id="about"><i class="icon-info-sign"></i><a href="about.html" target=_blank><small>About</small></a></span>
   </div>
