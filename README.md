@@ -1,4 +1,4 @@
-============================= BmyT ================================
+============================ BmyT ==============================
 
   BmyT is a simple Google Chrome Extension for quick Binary to
   Text, Text to Binary Conversion and more.
@@ -11,4 +11,6 @@
   browser and find the Extension tab under the option tab then
   drag and drop BmyT folder into the Extension window.
   NB: You may need to enable developer mode as in the preview.
-========================> by SlymDev <=============================
+  
+  
+===> by SlymDev 
