@@ -14,4 +14,4 @@ BmyT
   NB: You may need to enable developer mode as in the preview.
   
   
-===> by SlymDev 
+===> [by SlymDev](http://www.facebook.com/slymdev)
