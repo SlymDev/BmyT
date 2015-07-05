@@ -1,0 +1,4 @@
+*.log
+
+# Except read me
+!README.md
