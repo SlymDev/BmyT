@@ -1,4 +1,5 @@
-============================ BmyT ==============================
+BmyT
+=====
 
   BmyT is a simple Google Chrome Extension for quick Binary to
   Text, Text to Binary Conversion and more.
